@@ -1,3 +1,106 @@
+img {
+  max-widht: 100%; }
 
+/*margin top*/
+header {
+  background-color: #f4f5f7; }
+  header img {
+    margin-top: 10px; }
+  header ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    margin-top: 10px; }
+    header ul li a {
+      text-decoration: none;
+      font-size: 10px;
+      color: #868686;
+      font-weight: bold;
+      margin-right: 10px; }
+  header .boletin-rojo {
+    font-size: 9px;
+    margin-top: 10px;
+    padding: 2px;
+    font-weight: bold; }
+  header input {
+    margin-top: 10px; }
+
+header i {
+  margin-top: 10px;
+  margin-right: 10px; }
+
+.banner img {
+  width: 65%;
+  margin-top: 20px; }
+.banner .domingo {
+  border: solid 1px #E5E4E4;
+  border-bottom: solid 3px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 2px;
+  height: 55px; }
+  .banner .domingo h5 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: -5px; }
+  .banner .domingo a {
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -25px; }
+.banner .llona {
+  width: 100%;
+  margin-top: 10px; }
+
+nav .rojo {
+  background-color: #BA1414;
+  padding: 0px;
+  border-radius: 10px;
+  margin-top: 10px; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  margin: 3px 5px;
+  text-align: center; }
+  nav ul li .menu1 {
+    text-decoration: none;
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #BA1414;
+    padding: 4px;
+    font-weight: bold;
+    margin-right: 10px; }
+  nav ul li .menu2 {
+    margin-left: 10px; }
+
+.submenu1 {
+  margin-top: 10px;
+  background-color: #f4f5f7;
+  border-radius: 10px; }
+  .submenu1 button {
+    margin-left: -9px;
+    background-color: #060606;
+    border: #060606;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 12px; }
+    .submenu1 button:hover {
+      background-color: #6A6969; }
+  .submenu1 .submenu {
+    background-color: #f4f5f7; }
+    .submenu1 .submenu li {
+      margin: 0px 5px; }
+      .submenu1 .submenu li a {
+        color: #565758;
+        font-size: 12px;
+        font-weight: bold; }
+
+.encabezado .banner {
+  margin-top: 10px;
+  margin-left: 10px; }
+
+img {
+  max-widht: 100; }
 
 /*# sourceMappingURL=main.css.map */
