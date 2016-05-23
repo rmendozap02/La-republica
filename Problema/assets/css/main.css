@@ -1,3 +1,38 @@
+/*cuadros de blog*/
+/*para footer*/
+/*texto azul de blog*/
+#blog h1 {
+  color: black;
+  font-size: 48px; }
+#blog .p {
+  color: #687986; }
 
+#blog .cuadro {
+  padding-top: 30px;
+  width: 100%;
+  heigth: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid silver; }
+  #blog .cuadro p {
+    font-size: 18px; }
+  #blog .cuadro .celeste {
+    margin: 10px;
+    background-color: #E2E6E9; }
+    #blog .cuadro .celeste h3 {
+      font-size: 15px;
+      text-align: left; }
+    #blog .cuadro .celeste h2 {
+      color: #687986;
+      font-size: 15px;
+      text-align: left; }
+    #blog .cuadro .celeste img {
+      width: 100%;
+      heigth: 100%;
+      margin: 10px; }
+  #blog .cuadro .MG-top {
+    margin-top: 35px; }
+#blog .MG-left {
+  margin-left: 25px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,47 @@
+#blog{
+	h1{
+		color: black;
+		font-size: 48px;
+	}
+	.p{
+		color: $azul;
+	}
+}
+
+#blog{
+	.cuadro{
+		padding-top: 30px;
+		width: 100%;
+		heigth: 250px;
+		margin-bottom: 20px;
+		text-align: center;
+		border: 1px solid silver;
+		p{
+			font-size: 18px;
+		}
+		.celeste{
+			margin: 10px;
+			background-color:$celeste;
+			h3{
+				font-size: 15px;
+				text-align: left;
+			}
+			h2{
+				color: $azul;
+				font-size: 15px;
+				text-align: left;
+			}
+			img{
+				width: 100%;
+				heigth: 100%;
+				margin: 10px;
+			}
+		}
+		.MG-top{
+			margin-top: 35px;
+		}
+	}
+	.MG-left{
+		margin-left: 25px;
+	}
+}
