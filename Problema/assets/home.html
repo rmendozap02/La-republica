@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="fonts/fontawesome-webfont.woff2">
 	<link rel="stylesheet" href="css/dist/bootstrap.css">
 	<link rel="stylesheet" href="css/dist/bootstrap.min.css">
+	<link rel="stylesheet" href="css/dist/slick-theme.css">
+	<link rel="stylesheet" href="css/dist/slick.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -115,25 +117,25 @@
 		</div>
 	</nav>
 	<section class="encabezado">
+		<img src="image/publicidad1.jpg" alt="" class="pull-left">
+		<img src="image/publicidad2.jpg" alt="" class="pull-right">
 		<div class="container">
 			<div class="row">
 				<div class="col md-16">
 					<img class="banner" src="image/banner-header.jpg" alt="">
 					<h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-google-plus" aria-hidden="true"></i>
-					<img src="image/bullet.gif" alt="">
-					<h6>Hace 12 minutos</h6>
-					<img src="image/bullet.gif" alt="">
-					<h6>POLÍTICA</h6>
+					<i class="fa fa-facebook linea azul" aria-hidden="true"></i>
+					<i class="fa fa-twitter linea celeste" aria-hidden="true"></i>
+					<i class="fa fa-google-plus linea rojo" aria-hidden="true"></i>
+					<img src="image/bullet.gif" alt="" class="linea punto">
+					<h6 class="linea">Hace 12 minutos</h6>
+					<img src="image/bullet.gif" alt="" class="linea punto">
+					<h6 class="linea">POLÍTICA</h6>
 				</div>
-			</div>
-			<div class="row">
+				<div class="row portada">
 				<div class="col-md-8">
-					<div class="card">
-  						<img class="card-img" src="image/img_grid_principal.jpg" alt="Card image">
-  						<div class="card-img-overlay">
+					<div class="card primero">
+  						<div class="card-img-overlay opacidad">
    							<p class="card-text">JNE impulsará campaña en favor de la aprobación de la Reforma Electoral</p>
   						</div>
 					</div>
@@ -141,9 +143,8 @@
 				<div class="col-md-8">
 					<div class="row">
 						<div class="col-md-16">
-							<div class="card">
-  								<img class="card-img" src="image/img_grid_secundario.jpg" alt="Card image">
-  								<div class="card-img-overlay">
+							<div class="card segundo">
+  								<div class="card-img-overlay opacidad">
    									<p class="card-text">Martín Belaude Lossio: empresas vínculadas al empresario contratarón por S/.3 000 millones | <a href="#">FOTOS</a></p>
   								</div>
 							</div>
@@ -151,9 +152,8 @@
 					</div>
 					<div class="row">
 						<div class="col-md-16">
-							<div class="card">
-  								<img class="card-img" src="image/seleccion-peruana-sub-20.jpg" alt="Card image">
-  								<div class="card-img-overlay">
+							<div class="card tercero">
+  								<div class="card-img-overlay opacidad">
    									<p class="card-text">Sub 20: Perú vs. Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano | <a href="#">VIDEO</a></p>
   								</div>
 							</div>
@@ -162,9 +162,10 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
 	<section class="columnistas">
-		<div class="container">
+		<div class="container fondo-gris">
 			<div class="row">
 				<div class="col-md-16">
 					<div class="columnas">
@@ -172,43 +173,51 @@
 							<h5>COLUMNISTAS</h5>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<img src="image/img-columnistas.jpg" alt="">
+					<div class="row multiple-items">
+						<div class="col-md-2">
+							<img src="image/img-columnistas.jpg" class="author" alt="">
 							<a href="#">Mario Vargas Llosa</a>
 							<h6>Megarrenuncia apulpinante</h6>
 						</div>
 						<div class="col-md-2">
-							<img src="image/img_blogueros.jpg" alt="">
+							<img src="image/img_blogueros.jpg" class="author" alt="">
 							<a href="#">Augusto Alvarez Rodrich</a>
 							<h6>Respuesta a una derrota estridente</h6>
 						</div>
 						<div class="col-md-2">
-							<img src="image/img-columnistas.jpg" alt="">
+							<img src="image/img-columnistas.jpg" class="author" alt="">
 							<a href="#">Mario Vargas Llosa</a>
 							<h6>Megarrenuncia apulpinante</h6>
 						</div>
-						<div class="col-md-2">
-							<img src="image/img-columnistas.jpg" alt="">
-							<a href="#">Mario Vargas Llosa</a>
-							<h6>Megarrenuncia apulpinante</h6>
-						</div>
-						<div class="col-md-2">
-							<img src="image/img_blogueros.jpg" alt="">
+							<div class="col-md-2">
+							<img src="image/img_blogueros.jpg" class="author" alt="">
 							<a href="#">Augusto Alvarez Rodrich</a>
 							<h6>Respuesta a una derrota estridente</h6>
 						</div>
-						<div class="col-md-4">
-							<img src="image/img-columnistas.jpg" alt="">
+						<div class="col-md-2">
+							<img src="image/img-columnistas.jpg" class="author" alt="">
 							<a href="#">Mario Vargas Llosa</a>
 							<h6>Megarrenuncia apulpinante</h6>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-16">
-							<img src="image/bullet.gif" alt="">
-							<img src="image/bullet.gif" alt="">
-							<img src="image/bullet.gif" alt="">
+						<div class="col-md-2">
+							<img src="image/img_blogueros.jpg" class="author" alt="">
+							<a href="#">Augusto Alvarez Rodrich</a>
+							<h6>Respuesta a una derrota estridente</h6>
+						</div>
+							<div class="col-md-2">
+							<img src="image/img_blogueros.jpg" class="author" alt="">
+							<a href="#">Augusto Alvarez Rodrich</a>
+							<h6>Respuesta a una derrota estridente</h6>
+						</div>
+						<div class="col-md-2">
+							<img src="image/img-columnistas.jpg" class="author" alt="">
+							<a href="#">Mario Vargas Llosa</a>
+							<h6>Megarrenuncia apulpinante</h6>
+						</div>
+						<div class="col-md-2">
+							<img src="image/img-columnistas.jpg" class="author" alt="">
+							<a href="#">Mario Vargas Llosa</a>
+							<h6>Megarrenuncia apulpinante</h6>
 						</div>
 					</div>
 				</div>
@@ -218,49 +227,57 @@
 	<section class="notas">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-11">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-8">
 							<div class="noticia">
 								<h5>Mercado de Pases 2015</h5>
-								<div class="foto">
-									<p>Mercado de Pases 2015: altas, bajas y rumores de los equipos peruanos.</p>
+								<div class="uno">
+									<div class="foto opacidad">
+										<p>Mercado de Pases 2015: altas, bajas y rumores de los equipos peruanos.</p>
+									</div>
 								</div>
 								<h6>Todo Sobre <a href="#">Mercado de pases 2015</a></h6>	
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-8">
 							<div class="noticia">
 								<h5>Régimen laboral juvenil</h5>
-							<div class="foto">
-								<p>Ollanta Humala: Los que han pérdido, más allá de tambores y panderetas, son 2 millones de jovenes | <a href="#">VIDEO</a></p>
+							<div class="dos">
+								<div class="foto opacidad1">
+									<p>Ollanta Humala: Los que han pérdido, más allá de tambores y panderetas, son 2 millones de jovenes | <a href="#">VIDEO</a></p>
+								</div>
 							</div>
 							<h6>Todo Sobre <a href="#">Régimen laboral juvenil</a></h6>	
 						</div>
 					</div>
 				</div>
 				<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-8">
 							<div class="noticia">
 								<h5>Champions League</h5>
-								<div class="foto">
-									<p>¿Podrá el Real Madrid conseguir la "Undécima"?</p>
+								<div class="tres">
+									<div class="foto opacidad2">
+										<p>¿Podrá el Real Madrid conseguir la "Undécima"?</p>
+									</div>
 								</div>
 								<h6>Todo Sobre <a href="#">Champions League</a></h6>	
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-8">
 							<div class="noticia">
 								<h5>Super Bowl</h5>
-							<div class="foto">
-								<p>Super Bowl XLIX: New England Patriots se consagró campeón la NFL al ganar 28-24 a Seahawks | <a href="#">VIDEO</a></p>
+							<div class="cuatro">
+								<div class="foto opacidad1">
+									<p>Super Bowl XLIX: New England Patriots se consagró campeón la NFL al ganar 28-24 a Seahawks | <a href="#">VIDEO</a></p>
+								</div>
 							</div>
 							<h6>Todo Sobre <a href="#">Super Bowl</a></h6>	
 						</div>
 					</div>
 				</div>
 			</div>
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<img src="image/banner-aside-home.jpg" alt="">
 				</div>
 			</div>
@@ -269,7 +286,7 @@
 	<section class="last-notices">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-11">
 					<h5>ÚLTIMAS NOTICIAS <img src="image/double-arrow-bottom.png" alt=""></h5>
 					<div class="notas">
 						<h6>Hace 1 hora 12 mins</h6>
@@ -278,81 +295,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -362,81 +316,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -446,81 +337,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -530,81 +358,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -614,81 +379,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -698,81 +400,18 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">ESPECTÁCULOS</a>
-								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
@@ -782,85 +421,253 @@
 							<div class="col-md-5">
 								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
+							<div class="col-md-11 lista">
 								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
 								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
 						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Roque Benavides respalda proyecto Tía Maria y espera que Conga se socialice</h4>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
 						<div class="row">
 							<div class="col-md-5">
-								<img src="image/thumb-post-image.jpg" alt="">
+								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
-								<p>Zenaida Condori Contreras Arequipa para el presidente de la Compañia de Minas Buenaventura. Roque Benavides, el proyecto Tá María, que promueve Southern Perú, ya debe...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
-								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
-							</div>
-							<hr width="100%">
-						</div>
-					</div>
-					<div class="notas">
-						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Youtube: Hombre finge ahogarse y su perro lo rescata | <a href="#">FOTOS</a></h4>
-						<div class="row">
-							<div class="col-md-5">
-								<img src="image/PERRO.JPG" alt="">
-							</div>
-							<div class="col-md-11">
-								<p>Lo más visto esta semana, un hombre se lanza al Lago Villarrica y su perro no duda en rescatarlo.</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">10</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
 								<a href="#">ESPECTÁCULOS</a>
 								<img src="image/bullet.gif" alt="">
-								<i class="fa fa-camera" aria-hidden="true"></i>
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
 						</div>
 					</div>
 					<div class="notas">
 						<h6>Hace 1 hora 12 mins</h6>
-						<h4>Real Madrid: Cristiano Ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
 						<div class="row">
 							<div class="col-md-5">
-								<img src="image/img_video_destacado.jpg" alt="">
+								<img src="image/img_news.jpg" alt="">
 							</div>
-							<div class="col-md-11">
-								<p>DEspués de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista en contra del Córdoba, el Cómite de Competición ha llegado a la...</p>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
 								<img src="image/bullet.gif" alt="">
-								<a href=""><img src="image/ico_comment.png" alt="">0</a>
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
 								<img src="image/bullet.gif" alt="">
-								<a href="#">AREQUIPA</a>
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
 							</div>
-							<hr width="100%">
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="notas">
+						<h6>Hace 1 hora 12 mins</h6>
+						<h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#">VIDEO</a></h4>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="image/img_news.jpg" alt="">
+							</div>
+							<div class="col-md-11 lista">
+								<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+								<i class="fa fa-facebook" aria-hidden="true" class="azul"></i>
+								<i class="fa fa-twitter" aria-hidden="true" class="celeste"></i>
+								<i class="fa fa-google-plus" aria-hidden="true" class="rojo"></i>
+								<img src="image/bullet.gif" alt="">
+								<a href=""><img src="image/ico_comment.png" alt=""> 10</a>
+								<img src="image/bullet.gif" alt="">
+								<a href="#">ESPECTÁCULOS</a>
+								<img src="image/bullet.gif" alt="">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<div class="subscribe">
 						<div class="subs">
 							<img src="image/img_sucribe.png" alt="">
@@ -872,30 +679,235 @@
 						</div>
 					</div>
 					<div class="aweita">
-						<img src="image/logo_aweita.jpg" alt="">
+						<img src="image/logo_aweita.jpg" alt="" class="logo-aweita">
 						<div class="aweita-content">
-							<img src="image/img_aweita.jpg" alt="">
-							<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_aweita.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+								</div>
+							</div>
 						</div>
 						<div class="aweita-content">
-							<img src="image/img_aweita.jpg" alt="">
-							<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_aweita.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+								</div>
+							</div>
 						</div>
 						<div class="aweita-content">
-							<img src="image/img_aweita.jpg" alt="">
-							<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_aweita.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+								</div>
+							</div>
 						</div>
 						<div class="aweita-content">
-							<img src="image/img_aweita.jpg" alt="">
-							<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_aweita.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p><b>Juan Román Riquelme, el adiós al 'último 10' de Argentina</b></p>
+								</div>
+							</div>
 						</div>
 						<h6>Más en <a href="#">Aweita.pe</a></h6>
 						<hr width="60%;">
 					</div>
 				</div>
+				<div class="col-md-5">
+					<div class="destacadas">
+						<h4>FOTOS DESTACADAS</h4>
+						<div class="entradas">
+							<div class="row">
+								<div class="col-md-16">
+									<img src="image/img_fotodes_prominent.jpg" alt="" class="grande">
+									<p class="sub-grande">Lorem ipsum dolor sit amet, lorem ipsum consectetur adipisicing elit.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_fotodes.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti maxime.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_fotodes.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti maxime.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="image/img_fotodes.jpg" alt="">
+								</div>
+								<div class="col-md-12">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti maxime.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="especiales">
+						<h4>ESPECIALES</h4>
+						<div class="row">
+							<div class="col-md-16">
+								<div class="foto-fondo">
+									<div class="fondo-blanco">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-16">
+								<div class="foto-fondo">
+									<div class="fondo-blanco">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-16">
+								<div class="foto-fondo">
+									<div class="fondo-blanco">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-16">
+								<div class="foto-fondo">
+									<div class="fondo-blanco">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="carlincatura">
+						<div class="row">
+							<div class="col-md-16">
+								<h4>CARLINCATURA DEL DÍA</h4>
+								<h6>Carlincaturas 30-01-2015</h6>
+								<img src="image/img_carlincatura_sd.jpg" alt="">
+								<a href="#">TODAS LAS CARLINCATURAS</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">	
+					<div class="blogueros">
+						<h4>NUESTROS BLOGUEROS</h4>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="image/img_blogueros.jpg" alt="">
+							</div>
+							<div class="col-md-12">
+								<a href="#">AUGUSTO ALVAREZ RODRICH</a>
+								<h6>Dios ha muerto...Tengo las manos</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-16">
+								<a href="#">TODOS LOS BLOGS</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-	<script src="js/jquery-min.js"></script>						
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>		
+	<script>
+		$('.multiple-items').slick({
+  		dots: true,
+  		infinite: false,
+  		slidesToShow: 6,
+  		slidesToScroll: 1
+		});
+	</script>				
 </body>
 </html>

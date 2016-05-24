@@ -1,0 +1,376 @@
+.encabezado{
+	text-align: center;
+	.linea{
+		display: inline;
+		margin-left: $mr-10;
+		margin-top: $mt-10;
+	}
+	.azul{
+		color: $facebook;
+		margin-top: $mt-10;
+	}
+	.celeste{
+		color: $twitter;
+		margin-top: $mt-10;
+	}
+	.rojo{
+		color: $google;
+		margin-top: $mt-10;
+	}
+	h1{
+		font-family: "Truetype";
+		font-size: 3.5em;
+	}
+	h6{
+		text-decoration: none;
+		font-size: 10px;
+		color: #868686;
+		font-weight: bold;
+	}
+	.punto{
+		margin-top: 3px;
+	}
+}
+/*ESTILOS DE LA PORTADA DONDE SE ENCUENTRAN LAS 3 FOTOS PRINCIPALES*/
+.primero{
+	background-image: url(../image/img_grid_principal.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	p{
+		padding: 95% 10px 10px 10px;
+	}
+}
+.segundo{
+	background-image: url(../image/img_grid_secundario.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	p{
+		padding: 30% 10px 10px 10px;
+	}
+}
+.tercero{
+	background-image: url(../image/seleccion-peruana-sub-20.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	p{
+		padding: 34% 10px 10px 10px;
+	}
+}
+.opacidad, .opacidad1, .opacidad2{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	text-shadow: 2px 2px black;
+	font-size: 1.4em;
+	margin-bottom: 0px;
+	text-align: left;
+}
+.portada{
+	margin-top: 20px;
+}
+/*ESTILOS DEL SLICK CON LOS COLUMNISTAS*/
+.columnistas{
+	text-align: center;
+	margin-top: 20px;
+	.fondo-gris{
+		background-color: #E1E1E1;
+		border-top: #B50D0D solid 5px;
+		h5{
+			background-color: #B50D0D;
+			color: #FFFFFF;
+			font-size: 1em;
+    		font-weight: bold;
+    		width: 127px;
+    		padding: 5px;
+    		margin-left: 43%;
+    		margin-top: -15px;
+		}
+	}
+	.author{
+		padding: 3px;
+		border: solid 1px black;
+		width: 90px;
+		height: 90px;
+		margin-left: 25px;
+		margin-top: $mr-10;
+	}
+	a{
+		text-decoration: none;
+		font-size: 10px;
+		color: #868686;
+		font-weight: bold;
+	}
+	h6{
+		text-decoration: none;
+		font-size: 14px;
+		color: #666666;
+		font-weight: bold;
+	}
+}
+/*ESTILOS DE LAS 4 FOTOS JUNTO A LA PUBLICIDAD DEL CABELLO*/
+.notas{
+	margin-top: 20px;
+}
+.noticia{
+	border: solid 1px $gris-claro;
+	width: 310px;
+	height: 220px;
+	margin-top: 20px;
+	h5{
+		text-decoration: none;
+		font-size: 14px;
+		color: #9C0303;
+		font-weight: bold;
+		text-align: center;
+	}
+	h6{
+		text-decoration: none;
+		font-size: 12px;
+		color: #666666;
+		font-weight: bold;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		font-size: 12px;
+		color: #393939;
+		font-weight: bold;
+	}
+	.opacidad{
+		font-size: 1em;
+		p{
+			padding: 16% 2%;
+		}
+	}
+	.opacidad1{
+		font-size: 1em;
+		p{
+			padding: 12% 2%;
+		}
+	}
+	.opacidad2{
+		font-size: 1em;
+		p{
+			padding: 16% 2%;
+		}
+	}
+	.uno{
+		background-image: url(../image/img_especiales.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.dos{
+		background-image: url(../image/img_especiales_aside.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.tres{
+		background-image: url(../image/img_especiales.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.cuatro{
+		background-image: url(../image/img_especiales.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+}
+/*ESTILOS DE SECCION NOTICIAS DONDE ESTA LA FOTO DE EMMA WATSON*/
+.last-notices{
+	h5{
+		font-size: 18px;
+		color: #666666;
+		font-weight: bold;
+	}
+	.notas{
+		border-bottom: solid 1px #A7A6A6;
+		h6{
+			font-size: 9px;
+    		font-weight: bold;
+    		color: black;
+		}
+		p{
+			font-size: 14px;
+    		color: black;
+    		width: 80%;
+		}
+		h4, a{
+			font-size: 16px;
+    		font-weight: bold;
+    		color: black;
+		}
+		.lista{
+			margin-bottom: 40px;
+			a, img, i{
+				margin-left: 5px;
+				font-size: 12px;
+    			font-weight: bold;
+    			color: #8D8D8D;
+			}
+		}
+	}
+}
+/*ESTILOS DE ASIDE (SUBSCRIBE*/
+.subscribe{
+	background-color: #E2E2E2;
+	padding: 10%;
+	text-align: center;
+	margin-top: 20px;
+	.subs{
+		background-color: #ffffff;
+		padding: 5%;
+		img{
+			margin-top: -35px;
+		}
+		h5{
+			font-size: 14px;
+    		font-weight: bold;
+    		color: black;
+		}
+		button{
+			font-size: 12px;
+			padding: 2px 4px;
+			width: 100%;
+			font-weight: bold;
+		}
+	}
+}
+/*ESTILOS DE ASIDE (AWEITA)*/
+.aweita{
+	border: solid 2px $gris-claro;
+	margin-top: 20px;
+	padding: 6px;
+	hr{
+		border: 3px solid #9205B5;
+		margin-bottom: -9px;
+	}
+	
+	.logo-aweita{
+		margin-left: 25%;
+		margin-top: 5px;
+	}
+	.aweita-content{
+		margin: 10px 0px;
+		p{
+			font-size: 12px;
+    		font-weight: bold;
+    		color: black;
+    		margin-left: 47px;
+		}
+	}
+	h6{
+		text-align: center;
+		font-size: 12px;
+    	font-weight: bold;
+    	color: black;
+    	margin-top: 10px;
+    	a{
+    		color:#9205B5;
+    	}
+	}
+}
+/*ESTILOS DE DESTACADAS*/
+.destacadas{
+	border-top: solid 5px #768696;
+	border-bottom: solid 1px #768696;
+	margin-top: 20px;
+	padding: 3px;
+	h4{
+		background-color: #768696;
+		color: #FFFFFF;
+		font-size: 12px;
+    	font-weight: bold;
+    	width: 150px;
+    	padding: 7px;
+    	margin-left: 23%;
+    	margin-top: -15px;
+    	text-align: center;
+	}
+	.sub-grande{
+		font-size: 16px;
+    	font-weight: bold;
+    	color: black;
+    	margin-left: 8px;
+	}
+}
+.grande{
+	width: 100%;
+	padding: 2px;
+	border: solid 1px #768696;
+}
+.entradas{
+	margin: 10px 0px;
+	p{
+		font-size: 12px;
+    	font-weight: bold;
+    	color: black;
+    	margin-left: 47px;
+	}
+}
+/*ESTILOS DE ESPECIALES*/
+.especiales{
+	border-top: solid 5px #768696;
+	border-bottom: solid 1px #768696;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 3px;
+	h4{
+		background-color: #768696;
+		color: #FFFFFF;
+		font-size: 12px;
+    	font-weight: bold;
+    	width: 100px;
+    	padding: 7px;
+    	margin-left: 30%;
+    	margin-top: -15px;
+    	text-align: center;
+	}
+	.foto-fondo{
+		background-image: url(../image/img_fotodes_prominent.jpg);
+		background-repeat: no-repeat;
+    	padding: 135px 0px 14px 72px;
+	}
+	.fondo-blanco{
+		p{
+		background-color: rgba(255, 255, 255, 0.8);
+		font-size: 12px;
+    	font-weight: bold;
+    	color: black;
+    	padding: 3%;
+    	width: 60%;
+	}
+	}
+}
+/*ESTILOS DE CARLINCATURA*/
+.carlincatura{
+	border-top: solid 5px #B50D0D;
+	border-bottom: solid 1px #768696;
+	h4{
+		background-color: #B50D0D;
+		color: #FFFFFF;
+		font-size: 12px;
+    	font-weight: bold;
+    	width: 160px;
+    	padding: 5px;
+    	margin-left: 22%;
+    	margin-top: -15px;
+	}
+	h6{
+		text-align: center;
+		font-size: 18px;
+    	font-weight: bold;
+    	color: black;
+    	margin-top: 10px;
+	}
+	a{
+		font-size: 10px;
+    	font-weight: bold;
+    	color: #B50D0D;
+    	margin-left: 70px;
+    	text-decoration: none;
+    	margin-bottom: 10px;
+	}
+	img{
+		margin-bottom: 10px;
+	}
+}
+/*ESTILOS DE BLOGUEROS*/
