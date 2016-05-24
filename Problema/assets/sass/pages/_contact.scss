@@ -1,3 +1,41 @@
-img{
-	max-widht: 100%;
+.encabezado{
+		h5{
+			text-align: left;
+			margin-left: 150px;
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	.datos{
+		margin-top: 20px;
+		input{
+		width: 70%;
+		margin-bottom: 30px;
+		margin-left: 150px;
+		}
+		h6{
+			text-align: left;
+			margin-left: 150px;
+			font-weight: bold;
+		}
+	}
+	.sugerencias{
+		h5{
+			text-align: left;
+			margin-left: 150px;
+			font-size: 12px;
+		}
+		input{
+			margin-left: 129px;
+    		display: block;
+    		margin-bottom: -22px;
+
+		}
+		textarea{
+			margin-left: 150px;
+		}
+
+	}
 }
+.sugerencias1{
+	margin-top: 40px;
+	}

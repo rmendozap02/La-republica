@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="fonts/fontawesome-webfont.woff2">
 	<link rel="stylesheet" href="css/dist/bootstrap.css">
 	<link rel="stylesheet" href="css/dist/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/dist/slick-theme.css">
+	<link rel="stylesheet" href="css/dist/slick.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -116,14 +117,71 @@
 		</div>
 	</nav>
 	<section class="encabezado">
+		<img src="image/publicidad1.jpg" alt="" class="pull-left">
+		<img src="image/publicidad2.jpg" alt="" class="pull-right">
 		<div class="container">
 			<div class="row">
 				<div class="col md-16">
 					<img class="banner" src="image/banner-header.jpg" alt="">
 				</div>
+				<div class="row">
+				<div class="col-md-16">
+					<h1>Contáctese con nosotros</h1>
+					<h4>Llena este formuario para así poder hacer contacto con nosotros, te enviaremos información de actualidad y de las noticias mas destacadas. O si tiene alguna propuesta de renovación o contenido para el sitio, vuestra opinión es muy importante para todos nosotros. Gracias por preferir <a href="#LaRepublica.pe">LaRepublica.pe</a></h4>
+					<div class="row">
+						<div class="container">
+							<div class="col-md-16">
+								<div class="form-group datos">
+								    <input type="text" class="form-control" placeholder="Nombres Completos">
+								    <input type="text" class="form-control" placeholder="Correo Electrónico">
+								    <input type="text" class="form-control" placeholder="Teléfonos">
+								    <h6>(Opcional)</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-16">
+							<div class="row">
+								<div class="col-md-8">
+									<h5>Elija un destinatario:</h5>
+									<div class="form-group sugerencias">
+										<form action="votacion.asp" method="post">
+										    <input type="radio" name="si" value="si">
+										       <h5>Sugerencia para el sitio web</h5>
+										    <input type="radio" name="no" value="no">
+										        <h5>Dirección periodistica</h5>
+										     <input type="radio" name="si" value="si">
+										        <h5>Dirección comercial</h5>
+										    <input type="radio" name="no" value="no">
+										        <h5>Cartas al director</h5>
+										     <input type="radio" name="si" value="si">
+										        <h5>Promociones y productos del diario.</h5>
+										    <input type="radio" name="no" value="no">
+										        <h5>Archivo periodístico</h5>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-8 sugerencias">
+									<div class="sugerencias1">
+										<h5>(Ej.: Funcionamiento para el sitio)</h5>
+										<h5>(Ej.: Sugerencia nota de prensa)</h5>
+										<h5>(Ej.: Publicidad en diarios o en sitios web)</h5>
+										<h5>(Ej.: Denuncias, comentarios e impresiones)</h5>
+										<h5>(Ej.: Promociones, tablets, etc)</h5>
+										<h5>(Ej.: Ediciones impresas/fotos)</h5>
+									</div>
+								</div>
+							</div>
+							<textarea name="comentarios" id="" cols="80" rows="10">Mensaje</textarea>
+							<button>ENVIAR</button>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
-	</section>	
+	</section>
 	<footer>
 		<div class="container">
 			<div class="row MG-top">
@@ -251,6 +309,16 @@
 			</div>
 		</div>
 	</footer>	
-	<script src="js/jquery-min.js"></script>						
+	<script src="js/jquery-min.js"></script>	
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>		
+	<script>
+		$('.multiple-items').slick({
+  		dots: true,
+  		infinite: false,
+  		slidesToShow: 6,
+  		slidesToScroll: 1
+		});
+	</script>						
 </body>
 </html>
