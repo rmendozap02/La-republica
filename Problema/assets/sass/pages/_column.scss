@@ -1,0 +1,124 @@
+#column{
+	h1{
+		color: black;
+		font-size: 48px;
+	}
+	.p{
+		color: $azul;
+	}
+}
+
+#column{
+	.cuadro{
+		padding-top: 30px;
+		width: 100%;
+		heigth: 250px;
+		margin-bottom: 20px;
+		text-align: center;
+		border: 1px solid silver;
+		p{
+			font-size: 18px;
+		}
+		.celeste{
+			margin: 10px;
+			background-color:$celeste;
+			h3{
+				font-size: 15px;
+				text-align: left;
+			}
+			h2{
+				color: $azul;
+				font-size: 15px;
+				text-align: left;
+			}
+			img{
+				width: 100%;
+				heigth: 100%;
+				margin: 10px;
+			}
+		}
+		.MG-top{
+			margin-top: 35px;
+		}
+	}
+	.MG-left{
+		margin-left: 25px;
+	}
+	button{
+		margin-left: 380px;
+	}
+}
+
+section{
+	h1{
+		color: black;
+		font-size: 48px;
+	}
+	.p{
+		color: $azul;
+	}
+	.rojo{
+		background-color: $rojo;
+		padding: 10px;
+		ul{
+			list-style-type: none;
+			.lista{
+				margin-left: 25px;
+			}
+			li{
+				display: inline-block;
+				margin-left: 50px;
+				padding: 5px;
+				&:hover{
+					background-color: red;
+					padding: 5px;
+				}
+				a{
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+section{
+	.T{
+		margin-top: 20px;
+	}
+	.cuadrO{
+		background-color: $celeste;
+		padding: 1px;
+		margin-bottom: 10px;
+		h3{
+			font-size: 12px;
+			margin-bottom: 0px;
+			text-align: left
+		}
+		h2{
+			color: $azul;
+			font-size: 13px;
+			margin-top: 0px;
+			text-align: left;
+		}
+		img{
+			width: 100%;
+			heigth: 100%;
+			margin: 15px 10px;
+		}
+		&:hover{
+			background-color: white;
+			border: 1px solid silver;
+		}
+	}
+	.granD{
+		h3{
+			margin-bottom: 0px;
+		}
+		h2{
+			margin-top: 0px;
+			margin-bottom: 5px;
+			font-size: 10px;
+		}
+	}
+}

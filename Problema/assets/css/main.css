@@ -1,6 +1,129 @@
 /*cuadros de blog*/
 /*para footer*/
 /*texto azul de blog*/
+/*barra de column*/
+#column h1 {
+  color: black;
+  font-size: 48px; }
+#column .p {
+  color: #687986; }
+
+#column .cuadro {
+  padding-top: 30px;
+  width: 100%;
+  heigth: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid silver; }
+  #column .cuadro p {
+    font-size: 18px; }
+  #column .cuadro .celeste {
+    margin: 10px;
+    background-color: #E2E6E9; }
+    #column .cuadro .celeste h3 {
+      font-size: 15px;
+      text-align: left; }
+    #column .cuadro .celeste h2 {
+      color: #687986;
+      font-size: 15px;
+      text-align: left; }
+    #column .cuadro .celeste img {
+      width: 100%;
+      heigth: 100%;
+      margin: 10px; }
+  #column .cuadro .MG-top {
+    margin-top: 35px; }
+#column .MG-left {
+  margin-left: 25px; }
+#column button {
+  margin-left: 380px; }
+
+section h1 {
+  color: black;
+  font-size: 48px; }
+section .p {
+  color: #687986; }
+section .rojo {
+  background-color: #CB1B01;
+  padding: 10px; }
+  section .rojo ul {
+    list-style-type: none; }
+    section .rojo ul .lista {
+      margin-left: 25px; }
+    section .rojo ul li {
+      display: inline-block;
+      margin-left: 50px;
+      padding: 5px; }
+      section .rojo ul li:hover {
+        background-color: red;
+        padding: 5px; }
+      section .rojo ul li a {
+        color: white;
+        text-decoration: none; }
+
+section .T {
+  margin-top: 20px; }
+section .cuadrO {
+  background-color: #E2E6E9;
+  padding: 1px;
+  margin-bottom: 10px; }
+  section .cuadrO h3 {
+    font-size: 12px;
+    margin-bottom: 0px;
+    text-align: left; }
+  section .cuadrO h2 {
+    color: #687986;
+    font-size: 13px;
+    margin-top: 0px;
+    text-align: left; }
+  section .cuadrO img {
+    width: 100%;
+    heigth: 100%;
+    margin: 15px 10px; }
+  section .cuadrO:hover {
+    background-color: white;
+    border: 1px solid silver; }
+section .granD h3 {
+  margin-bottom: 0px; }
+section .granD h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 10px; }
+
+#blog h1 {
+  color: black;
+  font-size: 48px; }
+#blog .p {
+  color: #687986; }
+
+#blog .cuadro {
+  padding-top: 30px;
+  width: 100%;
+  heigth: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid silver; }
+  #blog .cuadro p {
+    font-size: 18px; }
+  #blog .cuadro .celeste {
+    margin: 10px;
+    background-color: #E2E6E9; }
+    #blog .cuadro .celeste h3 {
+      font-size: 15px;
+      text-align: left; }
+    #blog .cuadro .celeste h2 {
+      color: #687986;
+      font-size: 15px;
+      text-align: left; }
+    #blog .cuadro .celeste img {
+      width: 100%;
+      heigth: 100%;
+      margin: 10px; }
+  #blog .cuadro .MG-top {
+    margin-top: 35px; }
+#blog .MG-left {
+  margin-left: 25px; }
+
 footer {
   background-color: #E3E3E3;
   width: 100%;
@@ -36,39 +159,5 @@ footer .breadcrumb {
     footer .breadcrumb li a {
       font-size: 11px;
       color: silver; }
-
-#blog h1 {
-  color: black;
-  font-size: 48px; }
-#blog .p {
-  color: #687986; }
-
-#blog .cuadro {
-  padding-top: 30px;
-  width: 100%;
-  heigth: 250px;
-  margin-bottom: 20px;
-  text-align: center;
-  border: 1px solid silver; }
-  #blog .cuadro p {
-    font-size: 18px; }
-  #blog .cuadro .celeste {
-    margin: 10px;
-    background-color: #E2E6E9; }
-    #blog .cuadro .celeste h3 {
-      font-size: 15px;
-      text-align: left; }
-    #blog .cuadro .celeste h2 {
-      color: #687986;
-      font-size: 15px;
-      text-align: left; }
-    #blog .cuadro .celeste img {
-      width: 100%;
-      heigth: 100%;
-      margin: 10px; }
-  #blog .cuadro .MG-top {
-    margin-top: 35px; }
-#blog .MG-left {
-  margin-left: 25px; }
 
 /*# sourceMappingURL=main.css.map */
