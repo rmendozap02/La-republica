@@ -67,7 +67,7 @@ section{
 			}
 			li{
 				display: inline-block;
-				margin-left: 50px;
+				margin-left: 35px;
 				padding: 5px;
 				&:hover{
 					background-color: red;
@@ -119,6 +119,14 @@ section{
 			margin-top: 0px;
 			margin-bottom: 5px;
 			font-size: 10px;
+		}
+	}
+}
+
+#column{
+	.container{
+		.Banner{
+			margin-top: 20px;
 		}
 	}
 }
