@@ -374,3 +374,111 @@
 	}
 }
 /*ESTILOS DE BLOGUEROS*/
+.blogueros{
+	border-top: solid 5px #768696;
+	border-bottom: solid 1px #768696;
+	margin-top: 20px;
+	padding: 3px;
+	margin-bottom: 50px;
+	img{
+		padding: 2px;
+		border: solid $gris-claro 1px;
+		margin-bottom: 10px;
+	}
+	a{
+		font-size: 10px;
+    	font-weight: bold;
+    	color: black;
+    	margin-left: 10px;
+    	text-decoration: none;
+    	margin-bottom: 10px;
+	}
+	h6{
+		margin-left: 10px;
+		font-size: 12px;
+    	font-weight: bold;
+    	color: black;
+    	margin-top: 10px;
+	}
+	h4{
+		background-color: #768696;
+		color: #FFFFFF;
+		font-size: 12px;
+    	font-weight: bold;
+    	width: 180px;
+    	padding: 7px;
+    	margin-left: 20%;
+    	margin-top: -15px;
+    	text-align: center;
+	}
+	.blogs{
+		font-size: 10px;
+    	font-weight: bold;
+    	color: #B50D0D;
+    	margin-left: 90px;
+    	text-decoration: none;
+    	margin-bottom: 10px;
+	}
+
+}
+/*ESTILOS DE EDICION IMPRESA*/
+.edicion-impresa{
+	border-top: solid 5px #B50D0D;
+	border-bottom: solid 1px #768696;
+	h4{
+		background-color: #B50D0D;
+		color: #FFFFFF;
+		font-size: 12px;
+    	font-weight: bold;
+    	width: 118px;
+    	padding: 5px;
+    	margin-left: 27%;
+    	margin-top: -15px;
+	}
+	h6{
+		text-align: center;
+		font-size: 18px;
+    	font-weight: bold;
+    	color: black;
+    	margin-top: 10px;
+	}
+	.portada-principal{
+		width: 90%;
+		margin-left: 6%;
+		margin-bottom: 10px;
+	}
+	img{
+		margin-right: 10px;
+		margin-bottom: 30px;
+	}
+	h5{
+		font-size: 14px;
+    	font-weight: bold;
+    	color: black;
+    	margin-left: 40px;
+    	margin-top: 40px;
+	}
+	a{
+		font-size: 12px;
+    	font-weight: bold;
+    	color: #B50D0D;
+    	margin-left: 40px;
+    	text-decoration: none;
+    	margin-bottom: 10px;
+	}
+}
+/*BARRAS DE PROGRESO*/
+.links{
+	margin-top: 10px;
+	color: #B50D0D;
+	font-size: 10px;
+}
+.respuesta{
+	h6{
+		margin-top: 2px;
+	}
+	progress{
+		margin-left: -20px;
+	}
+	
+}
